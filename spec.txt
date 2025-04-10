@@ -1,0 +1,3 @@
+1. Build a Chrome extension that can automatically recommend songs based on user interest.
+2. offer UI that user can input option and send to Spotify ML api get recommended songs as resposne
+3. generate a new playList based on the playList ID that user input

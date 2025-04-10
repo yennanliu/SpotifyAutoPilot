@@ -1,0 +1,91 @@
+body {
+    width: 400px;
+    margin: 0;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container {
+    padding: 15px;
+}
+
+h1 {
+    color: #1DB954;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #b3b3b3;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #282828;
+    border-radius: 4px;
+    background-color: #282828;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #1DB954;
+}
+
+.spotify-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.spotify-button:hover {
+    background-color: #1ed760;
+}
+
+.hidden {
+    display: none;
+}
+
+#songs-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+#songs-list li {
+    padding: 10px;
+    background-color: #282828;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+#recommendations-list {
+    margin-top: 20px;
+}
+
+#recommendations-list h2 {
+    color: #1DB954;
+    font-size: 18px;
+    margin-bottom: 15px;
+} 

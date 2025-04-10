@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spotify AutoPilot</title>
+    <link rel="stylesheet" href="../css/popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spotify AutoPilot</h1>
+        
+        <div id="login-section" class="section">
+            <button id="login-button" class="spotify-button">Login with Spotify</button>
+        </div>
+
+        <div id="main-section" class="section hidden">
+            <div class="input-group">
+                <label for="genres">Preferred Genres:</label>
+                <input type="text" id="genres" placeholder="rock, pop, jazz (comma separated)">
+            </div>
+
+            <div class="input-group">
+                <label for="playlist-id">Playlist ID to Base Recommendations On:</label>
+                <input type="text" id="playlist-id" placeholder="Enter Spotify playlist ID">
+            </div>
+
+            <div class="input-group">
+                <label for="mood">Mood:</label>
+                <select id="mood">
+                    <option value="energetic">Energetic</option>
+                    <option value="relaxed">Relaxed</option>
+                    <option value="happy">Happy</option>
+                    <option value="melancholic">Melancholic</option>
+                </select>
+            </div>
+
+            <button id="get-recommendations" class="spotify-button">Get Recommendations</button>
+
+            <div id="recommendations-list" class="hidden">
+                <h2>Recommended Songs</h2>
+                <ul id="songs-list"></ul>
+                <button id="create-playlist" class="spotify-button">Create Playlist from These Songs</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/popup.js"></script>
+</body>
+</html> 
